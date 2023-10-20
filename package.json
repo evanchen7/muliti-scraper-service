@@ -1,0 +1,29 @@
+{
+  "type": "module",
+  "name": "multiplex-scraper-service",
+  "description": "This project was bootstrapped with Fastify-CLI.",
+  "version": "1.0.0",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "fastify start -l info app.js",
+    "dev": "fastify start -w -l info -P app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/autoload": "^5.0.0",
+    "@fastify/env": "^4.2.0",
+    "@fastify/sensible": "^5.0.0",
+    "@fastify/static": "^6.11.2",
+    "@hokify/agenda": "^6.3.0",
+    "agendash": "^4.0.0",
+    "fastify": "^4.24.3",
+    "fastify-agenda": "^2.0.0",
+    "fastify-cli": "^5.8.0",
+    "fastify-plugin": "^4.0.0"
+  }
+}
